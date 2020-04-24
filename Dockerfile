@@ -14,4 +14,3 @@ RUN mvn install:install-file \
    -DgeneratePom=true
 
 RUN cp *.war /opt/jboss/jboss-eap-7.3/standalone/deployments
-
